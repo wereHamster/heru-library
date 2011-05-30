@@ -1,0 +1,9 @@
+
+Protocol 2
+
+UsePAM yes
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+
+PrintMotd no
+

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if test ${1} = 'start' ; then
+  exec runuid redis /usr/bin/redis-server /etc/redis.conf
+fi
+
+exit 0
+
