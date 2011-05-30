@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if test ${1} = 'start' ; then
+  exec runuid mongo /usr/bin/mongod run --config /etc/mongo.conf
+fi
+
+exit 0
+
