@@ -3,4 +3,4 @@
 class module.exports extends Manifest
 
   'user:root': ->
-    uid: 0
+    uid: 0, home: '/root'
