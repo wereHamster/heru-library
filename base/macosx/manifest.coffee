@@ -6,13 +6,13 @@ class module.exports extends Manifest
   # Groups
   # -------------------------------------------------------------------------
 
-  'group:root':     -> gid: 0
+  'group:wheel':    -> gid: 0
 
-  'group:admin':    -> gid: 111
+  'group:admin':    -> gid: 80
   'group:daemon':   -> gid: 1
-  'group:mail':     -> gid: 8
-  'group:operator': -> gid: 37
-  'group:staff':    -> gid: 50
+  'group:mail':     -> gid: 6
+  'group:operator': -> gid: 5
+  'group:staff':    -> gid: 20
 
 
   # -------------------------------------------------------------------------
@@ -20,5 +20,4 @@ class module.exports extends Manifest
   # -------------------------------------------------------------------------
 
   'user:root': ->
-    uid: 0, group: 'root', home: '/root'
-
+    uid: 0, group: 'wheel', home: '/var/root'

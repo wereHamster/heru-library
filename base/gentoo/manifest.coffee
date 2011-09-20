@@ -8,11 +8,11 @@ class module.exports extends Manifest
 
   'group:root':     -> gid: 0
 
-  'group:admin':    -> gid: 111
-  'group:daemon':   -> gid: 1
-  'group:mail':     -> gid: 8
-  'group:operator': -> gid: 37
-  'group:staff':    -> gid: 50
+# 'group:admin':    -> gid:
+  'group:daemon':   -> gid: 2
+  'group:mail':     -> gid: 12
+# 'group:operator': -> gid:
+# 'group:staff':    -> gid:
 
 
   # -------------------------------------------------------------------------
